@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0700">
+  <title>Vintage Vibes — Binômage AEFC-INPHB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- ③ html2canvas retiré d'ici — chargé en lazy uniquement au clic télécharger -->
+  <!-- ④ jsPDF également retiré — on n'utilise plus que le PNG -->
+</head>
+<body>
+
+<!-- CURSEUR -->
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<div class="cursor-trail" id="cursor-trail" aria-hidden="true"></div>
+
+<!-- RIDEAU -->
+<div class="rideau" id="rideau" aria-hidden="true"></div>
+
+<!-- ══════════════════════════════════════
+     ÉCRAN 1 — SPLASH
+══════════════════════════════════════ -->
+<div id="screen-splash" class="screen active" role="main" aria-label="Page d'accueil Vintage Vibes">
+  <div class="bg-overlay" aria-hidden="true"></div>
+  <canvas id="particles-canvas" aria-hidden="true"></canvas>
+
+  <div class="splash-content">
+    <div class="splash-asso" id="splash-asso">Association des Étudiants en Finance-Comptabilité · AEFC-INPHB</div>
+
+    <div class="gold-line-anim" id="line-top" aria-hidden="true"></div>
+
+    <div class="splash-title-wrap">
+      <h1 class="splash-title" id="splash-title"></h1>
+      <div class="splash-title-reflection" id="splash-title-ref" aria-hidden="true"></div>
+    </div>
+
+    <div class="gold-line-anim" id="line-bottom" aria-hidden="true"></div>
+
+    <p class="splash-tagline" id="splash-tagline"></p>
+
+    <!-- Compte à rebours -->
+    <div class="splash-countdown" id="splash-countdown" aria-label="Compte à rebours avant l'événement" role="timer"></div>
+
+    <div class="splash-enter" id="splash-enter" onclick="transitionVers('screen-login')" role="button" tabindex="0" aria-label="Entrer dans l'expérience">
+      <span class="enter-text">Entrer</span>
+      <div class="enter-chevron" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M5 8L10 13L15 8" stroke="#C9A84C" stroke-width="1" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     ÉCRAN 2 — LOGIN
+══════════════════════════════════════ -->
+<div id="screen-login" class="screen" role="main" aria-label="Identification">
+  <div class="bg-overlay" aria-hidden="true"></div>
+
+  <div class="glass-card" id="login-card">
+    <div class="card-top-ornament" aria-hidden="true">
+      <div class="ornament-line"></div>
+      <span class="ornament-diamond">◆</span>
+      <div class="ornament-line"></div>
+    </div>
+
+    <p class="card-eyebrow">Accès Privé</p>
+    <h2 class="card-title">Identification</h2>
+    <p class="card-sub">Entrez vos informations pour accéder<br>à votre invitation personnalisée</p>
+
+    <div class="form-group">
+      <input type="text" id="login-prenom" placeholder=" " autocomplete="given-name" aria-label="Prénom" aria-required="true">
+      <label for="login-prenom">Prénom</label>
+      <div class="input-bar" aria-hidden="true"></div>
+    </div>
+    <div class="form-group">
+      <input type="text" id="login-nom" placeholder=" " autocomplete="family-name" aria-label="Nom de famille" aria-required="true">
+      <label for="login-nom">Nom</label>
+      <div class="input-bar" aria-hidden="true"></div>
+    </div>
+    <div class="form-group">
+      <input type="text" id="login-alias" placeholder=" " autocomplete="nickname" aria-label="Alias ou surnom" aria-required="true">
+      <label for="login-alias">Alias</label>
+      <div class="input-bar" aria-hidden="true"></div>
+    </div>
+
+    <p class="msg-erreur" id="login-erreur" role="alert" aria-live="assertive"></p>
+
+    <button class="btn-gold" onclick="validerLogin()" aria-label="Valider et continuer">
+      <span class="btn-text">Continuer</span>
+      <span class="btn-icon" aria-hidden="true">→</span>
+    </button>
+
+    <div class="card-bottom-ornament" aria-hidden="true">
+      <div class="ornament-line"></div>
+      <span class="ornament-diamond" style="opacity:0.4">◆</span>
+      <div class="ornament-line"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     ÉCRAN 3 — ÉNIGME
+══════════════════════════════════════ -->
+<div id="screen-enigme" class="screen" role="main" aria-label="Épreuve de l'énigme">
+  <div class="bg-overlay" aria-hidden="true"></div>
+
+  <div class="glass-card enigme-card" id="enigme-card">
+    <div class="card-top-ornament" aria-hidden="true">
+      <div class="ornament-line"></div>
+      <span class="ornament-diamond">◆</span>
+      <div class="ornament-line"></div>
+    </div>
+
+    <p class="enigme-salut" id="enigme-salut" aria-live="polite"></p>
+    <p class="card-eyebrow">Votre Épreuve</p>
+    <h2 class="card-title">L'Énigme</h2>
+
+    <div class="enigme-box" role="blockquote">
+      <div class="enigme-quotes" aria-hidden="true">"</div>
+      <p class="enigme-texte" id="enigme-texte"></p>
+      <div class="enigme-quotes enigme-quotes-close" aria-hidden="true">"</div>
+    </div>
+
+    <div class="form-group">
+      <input type="text" id="enigme-input" placeholder=" " autocomplete="off" aria-label="Votre réponse à l'énigme" aria-required="true">
+      <label for="enigme-input">Votre réponse</label>
+      <div class="input-bar" aria-hidden="true"></div>
+    </div>
+
+    <p class="msg-erreur" id="enigme-erreur" role="alert" aria-live="assertive"></p>
+
+    <button class="btn-ghost" id="btn-indice" onclick="afficherIndice()" aria-label="Obtenir un indice">Révéler un indice</button>
+    <p class="indice-texte" id="indice-texte" role="status" aria-live="polite"></p>
+
+    <button class="btn-gold" onclick="verifierEnigme()" aria-label="Valider ma réponse">
+      <span class="btn-text">Valider</span>
+      <span class="btn-icon" aria-hidden="true">→</span>
+    </button>
+
+    <div class="card-bottom-ornament" aria-hidden="true">
+      <div class="ornament-line"></div>
+      <span class="ornament-diamond" style="opacity:0.4">◆</span>
+      <div class="ornament-line"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     ÉCRAN 4 — COFFRE-FORT VINTAGE
+══════════════════════════════════════ -->
+<div id="screen-coffre" class="screen" role="main" aria-label="Votre coffre-fort personnel">
+  <div class="bg-overlay bg-overlay-dark" aria-hidden="true"></div>
+  <canvas id="env-particles-canvas" aria-hidden="true"></canvas>
+
+  <div class="coffre-scene" id="coffre-scene">
+    <p class="coffre-titre" id="coffre-titre" aria-live="polite"></p>
+
+    <div class="loading-coffre" id="loading-coffre" role="status" aria-label="Chargement en cours">
+      <div class="loading-dot"></div>
+      <div class="loading-dot"></div>
+      <div class="loading-dot"></div>
+    </div>
+
+    <div id="coffre-scene-inner" class="hidden">
+      <div class="coffre" id="coffre" aria-label="Coffre-fort contenant votre invitation">
+        <div class="coffre-corps" aria-hidden="true"></div>
+        <div class="coffre-bandes" aria-hidden="true"></div>
+        <div class="coffre-coin coffre-coin-tl" aria-hidden="true"></div>
+        <div class="coffre-coin coffre-coin-tr" aria-hidden="true"></div>
+        <div class="coffre-coin coffre-coin-bl" aria-hidden="true"></div>
+        <div class="coffre-coin coffre-coin-br" aria-hidden="true"></div>
+        <div class="coffre-porte" id="porte-gauche" aria-hidden="true">
+          <div class="porte-texture"></div>
+          <div class="porte-barre"></div>
+        </div>
+        <div class="coffre-porte coffre-porte-droite" id="porte-droite" aria-hidden="true">
+          <div class="porte-texture"></div>
+          <div class="porte-barre"></div>
+        </div>
+        <div class="coffre-lumiere" id="coffre-lumiere" aria-hidden="true"></div>
+        <div class="coffre-interieur" aria-hidden="true"></div>
+        <div class="coffre-carte-wrap" id="coffre-carte-wrap">
+          <img class="coffre-carte-img" id="coffre-carte-img" alt="Votre invitation personnalisée Vintage Vibes" style="display:none;">
+          <div class="coffre-carte-placeholder" id="coffre-carte-placeholder" aria-label="Emplacement de votre invitation">
+            <div class="placeholder-ornement" aria-hidden="true">◆</div>
+            <span>VOTRE INVITATION</span>
+            <div class="placeholder-ornement" aria-hidden="true">◆</div>
+          </div>
+        </div>
+        <div class="coffre-sparks" id="coffre-sparks" aria-hidden="true"></div>
+
+        <!-- Molette — accessible clavier (tabindex + role ajoutés par JS) -->
+        <div class="molette-wrap" id="molette" onclick="cliqueMolette()">
+          <div class="molette-outer" aria-hidden="true">
+            <div class="molette-inner">
+              <div class="molette-centre">
+                <img src="assets/logo_sans_AP.png" alt="" class="molette-logo" aria-hidden="true" onerror="this.style.display='none'">
+                <span class="molette-vv" aria-hidden="true">VV</span>
+              </div>
+              <div class="rayon rayon-1" aria-hidden="true"></div>
+              <div class="rayon rayon-2" aria-hidden="true"></div>
+              <div class="rayon rayon-3" aria-hidden="true"></div>
+              <div class="rayon rayon-4" aria-hidden="true"></div>
+            </div>
+          </div>
+          <p class="molette-hint" id="molette-hint">Tournez pour ouvrir</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Actions : bouton PNG uniquement -->
+    <div class="actions-coffre hidden" id="actions-coffre" aria-live="polite">
+      <p class="actions-msg">Votre invitation est révélée ◆</p>
+      <div class="actions-btns">
+        <button class="btn-gold" onclick="telechargerImage()" aria-label="Télécharger mon invitation en image PNG">
+          <span class="btn-text">Télécharger mon invitation</span>
+          <span class="btn-icon" aria-hidden="true">↓</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
