@@ -44,7 +44,7 @@ const invites = [
     reponseHash:"fc59487712bbe89b488847b77b5744fb6b815b8fc65ef2ab18149958edb61464",
     indice:"On m'appelle le roi de la jungle.", image:"cartes/Diallo-Auriol.jpg" },
 
-  { nom:"Diomande", prenom:"Ibrahim", alias:"karacace",
+  { nom:"Diomande", prenom:"Ibrahim", alias:"karacake",
     enigme:"Je renais de mes cendres. Je meurs pour mieux vivre. Aucun obstacle ne m'arrête définitivement. Qui suis-je ?",
     reponseHash:"03a8f0dd8edb33781a836ac497800b5f9c5c47c2ddbfd0f89581140589725a85",
     indice:"Je suis un oiseau mythologique de feu.", image:"cartes/Diomande-Ibrahim.jpg" },
@@ -94,7 +94,7 @@ const invites = [
     reponseHash:"db1b743d38bcb6e964e2db3855507b44224c1c0c4ddb6517009e84e900c61931",
     indice:"Je me tiens devant un orchestre symphonique.", image:"cartes/Klon-Adrien.jpg" },
 
-  { nom:"Kodjo", prenom:"Ezoua Astrid Marie-Carmel", alias:"maa police",
+  { nom:"Kodjo", prenom:"Ezoua Astrid Marie-Carmel", alias:"la grosse patate",
     enigme:"Je suis la messagère des dieux. Je porte sept couleurs sur mes épaules après la pluie. Les enfants courent me chercher. Qui suis-je ?",
     reponseHash:"1acfcc79d3fd1a6f676024c131d6b1058b215aa6bd481953d140e1e6e582ae68",
     indice:"Je suis un phénomène coloré dans le ciel après la pluie.", image:"cartes/Kodjo-Astrid.jpg" },
@@ -134,7 +134,7 @@ const invites = [
     reponseHash:"e93e24c1b877a15df5e4a8cbb20f351b891b750779cf5e8fb99119a7142d89cf",
     indice:"Je suis l'étoile autour de laquelle tourne la Terre.", image:"cartes/Kouassi-Ange.jpg" },
 
-  { nom:"Kouassi", prenom:"Kanga Ange Marilyne", alias:"pedja",
+  { nom:"Kouassi", prenom:"Kanga Ange Marilyne", alias:"pedj",
     enigme:"Mon parfum envoûte, ma beauté séduit. Je suis offerte lors des grandes occasions. Je cache des épines mais j'incarne l'amour. Qui suis-je ?",
     reponseHash:"618d663af0f1ec88a5a19defa65a2f80d06582a832510b12f475d80870bdb3ab",
     indice:"Je suis une fleur symbole d'amour et de passion.", image:"cartes/Kouassi-Marilyne.jpg" },
@@ -209,7 +209,7 @@ const invites = [
     reponseHash:"46c4c923178acf98a9335791af273d4afd2d13e130e24672a753704ed854409f",
     indice:"Je suis un personnage féminin du livre de Ruth dans la Bible.", image:"cartes/Yao-Naomi.jpg" },
 
-  { nom:"Yaonaba", prenom:"Joela Danielle", alias:"la polytech",
+  { nom:"Yaonaba", prenom:"Joela Danielle", alias:"poupounanpou",
     enigme:"Je suis une créature des eaux douces et mystérieuses. Je séduis les voyageurs au bord des rivières. Je suis à la fois femme et légende. Qui suis-je ?",
     reponseHash:"b4a1b3d670fe631f25ec5c9960dc2eca35110c3496dcc959fd60d1ed3d0a991f",
     indice:"Je suis une nymphe des eaux dans la mythologie nordique.", image:"cartes/Yaonaba-Joela.png" },
