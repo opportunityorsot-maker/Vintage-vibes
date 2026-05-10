@@ -19,7 +19,7 @@ const invites = [
     reponseHash:"a0070f6fd5aa6e3c43edcf12b4371db937479ac7cd0b84dc95bb680492b41640",
     indice:"Je suis un document fondamental en comptabilité.", image:"cartes/Beugré-Armando.jpg" },
 
-  { nom:"Bouaffou", prenom:"Ahou Jessica", alias:"BODOuin",
+  { nom:"Bouaffou", prenom:"Ahou Jessica", alias:"bodouин",
     enigme:"Je brille la nuit, je guide les perdus. Les marins me suivaient avant les GPS. Les poètes m'ont chantée depuis des siècles. Qui suis-je ?",
     reponseHash:"5c7f259c35a05f39074787588eeae82c2a277ce7c8111a9d3de4f2b2b2db37d1",
     indice:"Je suis l'astre qui illumine la nuit.", image:"cartes/Bouaffou-Jessica.jpg" },
@@ -44,7 +44,7 @@ const invites = [
     reponseHash:"fc59487712bbe89b488847b77b5744fb6b815b8fc65ef2ab18149958edb61464",
     indice:"On m'appelle le roi de la jungle.", image:"cartes/Diallo-Auriol.jpg" },
 
-  { nom:"Diomande", prenom:"Ibrahim", alias:"karacake",
+  { nom:"Diomande", prenom:"Ibrahim", alias:"karacace",
     enigme:"Je renais de mes cendres. Je meurs pour mieux vivre. Aucun obstacle ne m'arrête définitivement. Qui suis-je ?",
     reponseHash:"03a8f0dd8edb33781a836ac497800b5f9c5c47c2ddbfd0f89581140589725a85",
     indice:"Je suis un oiseau mythologique de feu.", image:"cartes/Diomande-Ibrahim.jpg" },
@@ -94,7 +94,7 @@ const invites = [
     reponseHash:"db1b743d38bcb6e964e2db3855507b44224c1c0c4ddb6517009e84e900c61931",
     indice:"Je me tiens devant un orchestre symphonique.", image:"cartes/Klon-Adrien.jpg" },
 
-  { nom:"Kodjo", prenom:"Ezoua Astrid Marie-Carmel", alias:"la grosse patate",
+  { nom:"Kodjo", prenom:"Ezoua Astrid Marie-Carmel", alias:"maa police",
     enigme:"Je suis la messagère des dieux. Je porte sept couleurs sur mes épaules après la pluie. Les enfants courent me chercher. Qui suis-je ?",
     reponseHash:"1acfcc79d3fd1a6f676024c131d6b1058b215aa6bd481953d140e1e6e582ae68",
     indice:"Je suis un phénomène coloré dans le ciel après la pluie.", image:"cartes/Kodjo-Astrid.jpg" },
@@ -112,17 +112,17 @@ const invites = [
   { nom:"Koné", prenom:"Yieh Pédienlien Daniel", alias:"tchegbe",
     enigme:"Je vois dans le noir absolu. Je chasse en silence total. Mes yeux percent l'obscurité comme des phares dans la nuit. Qui suis-je ?",
     reponseHash:"7c180e3e3bee93dde4c28a4999b4cc3604ee53524c3b245485d41ac36d478c82",
-    indice:"Je suis un félin aux yeux perçants vivant dans les forêts.", image:"cartes/Kone-Daniel.jpg" },
+    indice:"Je suis un félin aux yeux perçants vivant dans les forêts.", image:"cartes/Koné-Daniel.jpg" },
 
   { nom:"Konin", prenom:"Kouame Phillipe Pierre Arnaud", alias:"le mignon-mignon",
     enigme:"Je coule vers l'avenir sans jamais revenir en arrière. Je nourris les civilisations depuis des millénaires. Sans moi, les déserts avancent. Qui suis-je ?",
     reponseHash:"40f19537798b0635fbb5a812f4d395382ec8b74eb939cce526441c8f0c3e6533",
-    indice:"Je suis un grand cours d'eau qui se jette dans la mer.", image:"cartes/konin-Philipe.jpg" },
+    indice:"Je suis un grand cours d'eau qui se jette dans la mer.", image:"cartes/Konin-Phillipe.jpg" },
 
   { nom:"Kouadio", prenom:"Kouakou Josué", alias:"le lampadaire de soubre",
     enigme:"Je suis plus vieux que les civilisations. Je résiste à tout — au vent, à l'eau, au temps. Les sculpteurs font leur art avec moi. Qui suis-je ?",
     reponseHash:"d5a5d66b94e8da0cf63d4cd6d66cd489d78e77b697039c6c48e3ff8d81752139",
-    indice:"Je suis un matériau naturel solide extrait du sol.", image:"cartes/Kouadio-Josue.jpg" },
+    indice:"Je suis un matériau naturel solide extrait du sol.", image:"cartes/Kouadio-Josué.jpg" },
 
   { nom:"Kouame", prenom:"Akissi Eunice", alias:"la diva des baoules",
     enigme:"Je change de couleur selon l'angle où on me regarde. Je suis une pierre qui rêve. Les artistes et les joailliers m'adorent. Qui suis-je ?",
@@ -132,9 +132,9 @@ const invites = [
   { nom:"Kouassi", prenom:"Ange Xavier Romaric", alias:"kacou philippe",
     enigme:"Je me lève à l'est et me couche à l'ouest sans jamais me tromper. Je réchauffe la Terre depuis des milliards d'années. Qui suis-je ?",
     reponseHash:"e93e24c1b877a15df5e4a8cbb20f351b891b750779cf5e8fb99119a7142d89cf",
-    indice:"Je suis l'étoile autour de laquelle tourne la Terre.", image:"cartes/Kouassi-Ange.jpg" },
+    indice:"Je suis l'étoile autour de laquelle tourne la Terre.", image:"cartes/Kouassi-Xavier.jpg" },
 
-  { nom:"Kouassi", prenom:"Kanga Ange Marilyne", alias:"pedj",
+  { nom:"Kouassi", prenom:"Kanga Ange Marilyne", alias:"pedja",
     enigme:"Mon parfum envoûte, ma beauté séduit. Je suis offerte lors des grandes occasions. Je cache des épines mais j'incarne l'amour. Qui suis-je ?",
     reponseHash:"618d663af0f1ec88a5a19defa65a2f80d06582a832510b12f475d80870bdb3ab",
     indice:"Je suis une fleur symbole d'amour et de passion.", image:"cartes/Kouassi-Marilyne.jpg" },
@@ -152,12 +152,12 @@ const invites = [
   { nom:"Mare", prenom:"Ousmane", alias:"le dictateur",
     enigme:"Je suis la frontière entre le désert et la forêt. Je suis une zone fragile que le réchauffement climatique menace chaque année davantage. Qui suis-je ?",
     reponseHash:"0d8ef178442fa8c2fc76b460adc75a8ae70d499e9675cffc8ef164c9601fc5f6",
-    indice:"Je suis une région d'Afrique entre le Sahara et la savane.", image:"cartes/Mare-Ousmane.jpg" },
+    indice:"Je suis une région d'Afrique entre le Sahara et la savane.", image:"cartes/Maré-Ousmane.jpg" },
 
   { nom:"Obou", prenom:"Boka Yaba Divine Alexandra Grace", alias:"la doubehi",
     enigme:"Je suis ce qui reste quand on enlève tout le superflu. Je suis légère, élégante et intemporelle. Les grandes dames me cultivent toute leur vie. Qui suis-je ?",
     reponseHash:"0cabdcb9e479e967554a1e295e0a23b0acc17b08fe36e2e98c880f22170fa3fd",
-    indice:"Je suis une qualité esthétique et comportementale très raffinée.", image:"cartes/Obou-Lexa.jpg" },
+    indice:"Je suis une qualité esthétique et comportementale très raffinée.", image:"cartes/Obou-Lexa.png" },
 
   { nom:"Ouattara", prenom:"Ferima", alias:"gesaped",
     enigme:"Je suis une résine fossilisée qui emprisonne le temps. On m'a retrouvée avec des insectes vieux de millions d'années en mon sein. Qui suis-je ?",
@@ -177,7 +177,7 @@ const invites = [
   { nom:"Sanguisso", prenom:"Kalirou", alias:"bac bee!!!",
     enigme:"Je souffle depuis le Sahara. Je dessèche les lèvres et blanchis le ciel. En Afrique de l'Ouest, je suis à la fois redouté et attendu. Qui suis-je ?",
     reponseHash:"9efb2ed3f6760d30387c6812fe8ea3b2c8ee9a14fc25705d043b7e1571f89972",
-    indice:"Je suis un vent sec et chaud venant du désert.", image:"cartes/Sanguisso-Kalirou.jpg" },
+    indice:"Je suis un vent sec et chaud venant du désert.", image:"cartes/Sanguisso-kalirou.jpg" },
 
   { nom:"Sanogo", prenom:"Watchouho Aicha Jamila", alias:"femme de milliardaire",
     enigme:"Mon parfum emplit les jardins la nuit. Je suis blanche et délicate. Les sultans me faisaient cultiver dans leurs jardins secrets. Qui suis-je ?",
@@ -197,7 +197,7 @@ const invites = [
   { nom:"Soumahouro", prenom:"Abdoul Souamade", alias:"le pro de lakota",
     enigme:"Je suis le vent doux qui caresse les joues au printemps. Les Grecs m'avaient donné un nom de dieu. Je suis la brise la plus douce qui soit. Qui suis-je ?",
     reponseHash:"d47c40bea34483aafa4af5bd36af4f6adff17bda66d1cedbaf9c93e9bb9cf387",
-    indice:"Je suis un vent doux et agréable dans la mythologie grecque.", image:"cartes/Soumahouro-Abdoul.jpg" },
+    indice:"Je suis un vent doux et agréable dans la mythologie grecque.", image:"cartes/Soumahouro-abdoul.jpg" },
 
   { nom:"Toussea", prenom:"Oulaï Daniele Grace Emmanuella", alias:"la capricieuse",
     enigme:"Je suis le jardin du commencement. Je suis le paradis perdu que l'humanité cherche encore depuis des millénaires. Mon nom évoque la perfection originelle. Qui suis-je ?",
@@ -209,10 +209,10 @@ const invites = [
     reponseHash:"46c4c923178acf98a9335791af273d4afd2d13e130e24672a753704ed854409f",
     indice:"Je suis un personnage féminin du livre de Ruth dans la Bible.", image:"cartes/Yao-Naomi.jpg" },
 
-  { nom:"Yaonaba", prenom:"Joela Danielle", alias:"poupounanpou",
+  { nom:"Yaonaaba", prenom:"Joela Danielle", alias:"la polytech",
     enigme:"Je suis une créature des eaux douces et mystérieuses. Je séduis les voyageurs au bord des rivières. Je suis à la fois femme et légende. Qui suis-je ?",
     reponseHash:"b4a1b3d670fe631f25ec5c9960dc2eca35110c3496dcc959fd60d1ed3d0a991f",
-    indice:"Je suis une nymphe des eaux dans la mythologie nordique.", image:"cartes/Yaonaba-Joela.png" },
+    indice:"Je suis une nymphe des eaux dans la mythologie nordique.", image:"cartes/Yaonaba-Joela.jpg" },
 
   { nom:"Yeo", prenom:"Dogafoli Daouda", alias:"le silencieux",
     enigme:"Je suis tout ce qui existe — les étoiles, les planètes, le temps et l'espace. Je suis infini et mystérieux. Les scientifiques passent leur vie entière à tenter de me comprendre. Qui suis-je ?",
@@ -639,7 +639,212 @@ function cliqueMolette() {
       btnWA.innerHTML='<span class="wa-icon">◈</span> Partager sur WhatsApp';
       a.querySelector('.actions-btns').appendChild(btnWA);
     }
+    /* Injecter le bloc code secret avec gestion affichage unique */
+    if(!document.getElementById('code-secret-bloc')) {
+      const cle        = 'vv_code_vu_' + getCleCode(inviteConnecte);
+      const dejaVu     = localStorage.getItem(cle) === '1';
+
+      const bloc = document.createElement('div');
+      bloc.id    = 'code-secret-bloc';
+
+      if (dejaVu) {
+        /* Code déjà révélé : message neutre, aucun code visible */
+        bloc.innerHTML = `
+          <p class="cs-label">Code de cérémonie</p>
+          <div class="cs-deja-vu">
+            <p class="cs-deja-texte">Votre code vous a déjà été remis.</p>
+            <p class="cs-deja-sous">Si vous avez un problème, contactez l'organisateur.</p>
+          </div>
+        `;
+      } else {
+        /* Première fois : bouton révéler */
+        bloc.innerHTML = `
+          <p class="cs-label">Votre code pour la cérémonie de binômage</p>
+          <button class="cs-btn" id="cs-btn" onclick="revelerCode()" aria-label="Révéler votre code secret">
+            <span class="cs-btn-text">Révéler mon code</span>
+            <div class="cs-btn-fill"></div>
+          </button>
+          <div class="cs-affichage hidden" id="cs-affichage">
+            <div class="cs-chars" id="cs-chars"></div>
+            <p class="cs-sous">Notez ce code — il vous sera demandé lors du binômage</p>
+          </div>
+        `;
+      }
+
+      const btns = a.querySelector('.actions-btns');
+      a.insertBefore(bloc, btns);
+    }
   },2200);
+}
+
+/* ════════════════════════════════════════════
+   CODES SECRETS — correspondance fixe
+   ⚠️ Ne pas partager avec les invités
+════════════════════════════════════════════ */
+const codesSecrets = {
+  "Akosso":      "AK47",
+  "Beugre":      "BN82",
+  "Bouaffou":    "BJ15",
+  "Coulibaly-M": "CM63",
+  "Coulibaly-F": "CF29",
+  "Dakouri":     "DE74",
+  "Diallo":      "DB31",
+  "Diomande":    "DI58",
+  "Djezou":      "DJ06",
+  "Doumbia":     "DO93",
+  "Egbonon":     "EO42",
+  "Elh":         "EH17",
+  "Hien":        "HW85",
+  "Kadio":       "KA39",
+  "Kalouboue":   "KK71",
+  "Kambou":      "KS24",
+  "Klon":        "KE56",
+  "Kodjo":       "KA03",
+  "Konan-C":     "KC88",
+  "Konan-K":     "KD45",
+  "Koné":        "KP62",
+  "Konin":       "KP19",
+  "Kouadio":     "KJ37",
+  "Kouame":      "KE91",
+  "Kouassi-X":   "KX54",
+  "Kouassi-M":   "KM28",
+  "Mafely":      "MA76",
+  "Makoua":      "ML04",
+  "Mare":        "MO67",
+  "Obou":        "OD13",
+  "Ouattara":    "OF49",
+  "Saganogo":    "SA86",
+  "Sam":         "SJ22",
+  "Sanguisso":   "SK70",
+  "Sanogo":      "SW35",
+  "Sekongo":     "SR08",
+  "Silué":       "SI64",
+  "Soumahouro":  "SA51",
+  "Toussea":     "TD97",
+  "Yao":         "YN33",
+  "Yaonaba":     "YJ80",
+  "Yeo":         "YD16",
+};
+
+function getCleCode(invite) {
+  const n = invite.nom;
+  if (n === "Coulibaly") return invite.prenom.includes("Madjalia") ? "Coulibaly-M" : "Coulibaly-F";
+  if (n === "Konan")     return invite.prenom.includes("Claude")   ? "Konan-C"     : "Konan-K";
+  if (n === "Kouassi")   return invite.prenom.includes("Xavier")   ? "Kouassi-X"   : "Kouassi-M";
+  return n;
+}
+
+/* ════════════════════════════════════════════
+   ANIMATION DÉFILEMENT CODE
+   Les caractères défilent rapidement avant
+   de se figer sur le vrai code de l'invité
+════════════════════════════════════════════ */
+const CHARS_POOL = 'ABCDEFGHJKLMNPQRSTUVWXYZ0123456789';
+
+function revelerCode() {
+  const btn       = document.getElementById('cs-btn');
+  const affichage = document.getElementById('cs-affichage');
+  const charsEl   = document.getElementById('cs-chars');
+  if (!inviteConnecte) return;
+
+  const vraiCode = codesSecrets[getCleCode(inviteConnecte)] || '????';
+
+  /* Marquer immédiatement comme vu dans localStorage */
+  const cle = 'vv_code_vu_' + getCleCode(inviteConnecte);
+  try { localStorage.setItem(cle, '1'); } catch(e) {}
+
+  /* Cacher le bouton */
+  btn.style.opacity    = '0';
+  btn.style.transform  = 'scale(0.9)';
+  btn.style.transition = 'all 0.3s ease';
+  setTimeout(() => btn.style.display = 'none', 300);
+
+  /* Afficher la zone */
+  affichage.classList.remove('hidden');
+  charsEl.innerHTML = '';
+
+  /* Créer une case par caractère */
+  const cases = vraiCode.split('').map((_, i) => {
+    const span = document.createElement('span');
+    span.className = 'cs-char';
+    span.textContent = CHARS_POOL[Math.floor(Math.random() * CHARS_POOL.length)];
+    charsEl.appendChild(span);
+    return span;
+  });
+
+  /* Défilement rapide puis fixation caractère par caractère */
+  const dureeDefilement = 1800; /* ms de défilement total */
+  const intervalDefilement = 40;  /* ms entre chaque changement aléatoire */
+  let tick = 0;
+  const maxTicks = dureeDefilement / intervalDefilement;
+
+  const defileur = setInterval(() => {
+    tick++;
+    cases.forEach((span, i) => {
+      /* Chaque case se fige progressivement, de gauche à droite */
+      const seuilFige = (i / cases.length) * 0.7; /* 0 à 0.7 */
+      if (tick / maxTicks < seuilFige) {
+        /* Déjà figé sur le vrai caractère */
+        if (span.textContent !== vraiCode[i]) {
+          span.textContent = vraiCode[i];
+          span.classList.add('cs-char-fige');
+          jouerTicFige();
+        }
+      } else {
+        /* Encore en défilement */
+        span.textContent = CHARS_POOL[Math.floor(Math.random() * CHARS_POOL.length)];
+      }
+    });
+
+    if (tick >= maxTicks) {
+      clearInterval(defileur);
+      /* Figer tous les caractères sur le vrai code */
+      cases.forEach((span, i) => {
+        setTimeout(() => {
+          span.textContent = vraiCode[i];
+          span.classList.add('cs-char-fige');
+          jouerTicFige();
+          /* Dernier caractère : pulse final */
+          if (i === cases.length - 1) {
+            setTimeout(() => {
+              charsEl.classList.add('cs-chars-final');
+              jouerSonCode();
+            }, 150);
+          }
+        }, i * 100);
+      });
+    }
+  }, intervalDefilement);
+}
+
+/* Son de "tic" à chaque caractère figé */
+function jouerTicFige() {
+  const ctx = getAudioCtx(); if (!ctx) return;
+  const osc  = ctx.createOscillator();
+  const gain = ctx.createGain();
+  osc.type = 'sine';
+  osc.frequency.setValueAtTime(1200 + Math.random() * 400, ctx.currentTime);
+  gain.gain.setValueAtTime(0.08, ctx.currentTime);
+  gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.08);
+  osc.connect(gain); gain.connect(ctx.destination);
+  osc.start(); osc.stop(ctx.currentTime + 0.09);
+}
+
+/* Son final quand le code est révélé */
+function jouerSonCode() {
+  const ctx = getAudioCtx(); if (!ctx) return;
+  [880, 1047, 1319].forEach((f, i) => {
+    const osc  = ctx.createOscillator();
+    const gain = ctx.createGain();
+    const t    = ctx.currentTime + i * 0.1;
+    osc.type = 'sine';
+    osc.frequency.setValueAtTime(f, t);
+    gain.gain.setValueAtTime(0, t);
+    gain.gain.linearRampToValueAtTime(0.15, t + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.001, t + 0.4);
+    osc.connect(gain); gain.connect(ctx.destination);
+    osc.start(t); osc.stop(t + 0.45);
+  });
 }
 
 function exploserParticules() {
@@ -712,4 +917,107 @@ function telechargerPDF() {
     const nom=inviteConnecte?`${inviteConnecte.prenom}-${inviteConnecte.nom}`:'invitation';
     pdf.save(`invitation-vintage-vibes-${nom}.pdf`);
   });
+}
+/* ════════════════════════════════════════════
+   ADMIN RESET — réinitialiser le code d'un invité
+   Accessible via : ?admin=vv2024 dans l'URL
+   Ex: https://monsite.github.io/Vintage-vibes/?admin=vv2024
+════════════════════════════════════════════ */
+
+/* Mot de passe admin — change-le avant la soirée */
+const ADMIN_PASSWORD = 'vv2024';
+
+function verifierAccesAdmin() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get('admin') === ADMIN_PASSWORD;
+}
+
+/* Lance le panneau admin si l'URL contient ?admin=vv2024 */
+document.addEventListener('DOMContentLoaded', () => {
+  if (verifierAccesAdmin()) {
+    afficherPanneauAdmin();
+  }
+});
+
+function afficherPanneauAdmin() {
+  /* Panneau flottant discret en bas à gauche */
+  const panneau = document.createElement('div');
+  panneau.id    = 'admin-panneau';
+  panneau.style.cssText = `
+    position:fixed; bottom:16px; left:16px; z-index:9999;
+    background:rgba(8,5,0,0.95); border:1px solid rgba(201,168,76,0.4);
+    backdrop-filter:blur(12px); border-radius:4px;
+    padding:14px 16px; min-width:260px;
+    font-family:'Cinzel',serif; font-size:0.65rem; letter-spacing:2px;
+    color:#C9A84C;
+  `;
+
+  /* Liste de tous les invités avec bouton reset */
+  const lignes = invites.map((inv, idx) => {
+    const cle    = 'vv_code_vu_' + getCleCode(inv);
+    const dejaVu = localStorage.getItem(cle) === '1';
+    return `
+      <div style="display:flex;align-items:center;justify-content:space-between;
+                  padding:4px 0;border-bottom:1px solid rgba(201,168,76,0.1)">
+        <span style="font-size:0.6rem;color:${dejaVu ? '#e8a87c' : 'rgba(201,168,76,0.5)'}">
+          ${inv.nom} ${dejaVu ? '✓ vu' : '○'}
+        </span>
+        ${dejaVu ? `
+          <button onclick="resetCode('${getCleCode(inv)}')"
+            style="background:transparent;border:1px solid rgba(201,168,76,0.4);
+                   color:#C9A84C;font-size:0.55rem;letter-spacing:1px;
+                   padding:2px 8px;cursor:pointer;border-radius:2px;">
+            Réinitialiser
+          </button>` : '<span style="font-size:0.55rem;color:rgba(201,168,76,0.3)">—</span>'}
+      </div>
+    `;
+  }).join('');
+
+  panneau.innerHTML = `
+    <div style="text-align:center;margin-bottom:10px;border-bottom:1px solid rgba(201,168,76,0.3);padding-bottom:8px">
+      ◆ PANNEAU ADMIN ◆
+    </div>
+    <div style="max-height:260px;overflow-y:auto;scrollbar-width:none">
+      ${lignes}
+    </div>
+    <button onclick="resetTousLesCodes()"
+      style="margin-top:10px;width:100%;background:transparent;
+             border:1px solid rgba(201,168,76,0.5);color:#C9A84C;
+             font-family:'Cinzel',serif;font-size:0.6rem;letter-spacing:2px;
+             padding:6px;cursor:pointer;text-transform:uppercase">
+      Tout réinitialiser
+    </button>
+    <button onclick="document.getElementById('admin-panneau').remove()"
+      style="margin-top:6px;width:100%;background:transparent;border:none;
+             color:rgba(201,168,76,0.4);font-size:0.55rem;cursor:pointer;
+             letter-spacing:1px;padding:4px">
+      Fermer
+    </button>
+  `;
+
+  document.body.appendChild(panneau);
+}
+
+/* Réinitialiser le code d'UN invité */
+function resetCode(cle) {
+  try {
+    localStorage.removeItem('vv_code_vu_' + cle);
+    /* Rafraîchir le panneau */
+    const p = document.getElementById('admin-panneau');
+    if (p) { p.remove(); afficherPanneauAdmin(); }
+    console.log(`Code réinitialisé : ${cle}`);
+  } catch(e) {}
+}
+
+/* Réinitialiser TOUS les codes */
+function resetTousLesCodes() {
+  if (!confirm('Réinitialiser les codes de TOUS les invités ?')) return;
+  try {
+    invites.forEach(inv => {
+      localStorage.removeItem('vv_code_vu_' + getCleCode(inv));
+    });
+    const p = document.getElementById('admin-panneau');
+    if (p) { p.remove(); afficherPanneauAdmin(); }
+    console.log('Tous les codes réinitialisés');
+  } catch(e) {}
 }
