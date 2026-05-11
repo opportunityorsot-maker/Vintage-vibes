@@ -82,7 +82,7 @@ const invites = [
   { nom:"Kalouboue", prenom:"Djouhon Karmiela Priscille Wendkuni", alias:"boutchou",
     enigme:"Je suis celle qui vient de loin mais illumine là où elle arrive. Mon nom porte le vent et les étoiles. Je traverse le ciel en un éclair. Qui suis-je ?",
     reponseHash:"0aa16b0802595cfe88786ec347d21bb5a4bbb52cae336cba1b23c6f6d9fa291a",
-    indice:"Je suis un phénomène lumineux qui traverse le ciel en un instant.", image:"cartes/Kalouboue-Karmiela.jpg" },
+    indice:"Je suis un phénomène lumineux qui traverse le ciel en un instant.", image:"cartes/Kalouboue-Karmelia.jpg" },
 
   { nom:"Kambou", prenom:"Sié Alex", alias:"inza",
     enigme:"Je suis le plus grand et le plus fort, mais le temps finit toujours par me vaincre. Je suis une montagne vivante de la mythologie. Qui suis-je ?",
