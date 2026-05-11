@@ -79,10 +79,10 @@ const invites = [
     reponseHash:"d2948bdb87c7aabaaeff993a5742ff1e74923be877ee9bf005d54efb551112be",
     indice:"Je suis souvent enfermé dans un coffre au fond de l'océan.", image:"cartes/Kadio-Trésor.jpg" },
 
-  { nom:"Kalouboue", prenom:"Djouhon Karmielia Priscille Wendkuni", alias:"boutchou",
+  { nom:"Kalouboue", prenom:"Djouhon Karmiela Priscille Wendkuni", alias:"boutchou",
     enigme:"Je suis celle qui vient de loin mais illumine là où elle arrive. Mon nom porte le vent et les étoiles. Je traverse le ciel en un éclair. Qui suis-je ?",
     reponseHash:"0aa16b0802595cfe88786ec347d21bb5a4bbb52cae336cba1b23c6f6d9fa291a",
-    indice:"Je suis un phénomène lumineux qui traverse le ciel en un instant.", image:"cartes/Kalouboue-Karmielia.jpg" },
+    indice:"Je suis un phénomène lumineux qui traverse le ciel en un instant.", image:"cartes/Kalouboue-Karmiela.jpg" },
 
   { nom:"Kambou", prenom:"Sié Alex", alias:"inza",
     enigme:"Je suis le plus grand et le plus fort, mais le temps finit toujours par me vaincre. Je suis une montagne vivante de la mythologie. Qui suis-je ?",
@@ -114,10 +114,10 @@ const invites = [
     reponseHash:"7c180e3e3bee93dde4c28a4999b4cc3604ee53524c3b245485d41ac36d478c82",
     indice:"Je suis un félin aux yeux perçants vivant dans les forêts.", image:"cartes/Koné-Daniel.jpg" },
 
-  { nom:"Konin", prenom:"Kouame Phillipe Pierre Arnaud", alias:"le mignon-mignon",
+  { nom:"Konin", prenom:"Kouame Philippe Pierre Arnaud", alias:"le mignon-mignon",
     enigme:"Je coule vers l'avenir sans jamais revenir en arrière. Je nourris les civilisations depuis des millénaires. Sans moi, les déserts avancent. Qui suis-je ?",
     reponseHash:"40f19537798b0635fbb5a812f4d395382ec8b74eb939cce526441c8f0c3e6533",
-    indice:"Je suis un grand cours d'eau qui se jette dans la mer.", image:"cartes/Konin-Phillipe.jpg" },
+    indice:"Je suis un grand cours d'eau qui se jette dans la mer.", image:"cartes/Konin-Philippe.jpg" },
 
   { nom:"Kouadio", prenom:"Kouakou Josué", alias:"le lampadaire de soubre",
     enigme:"Je suis plus vieux que les civilisations. Je résiste à tout — au vent, à l'eau, au temps. Les sculpteurs font leur art avec moi. Qui suis-je ?",
@@ -134,7 +134,7 @@ const invites = [
     reponseHash:"e93e24c1b877a15df5e4a8cbb20f351b891b750779cf5e8fb99119a7142d89cf",
     indice:"Je suis l'étoile autour de laquelle tourne la Terre.", image:"cartes/Kouassi-Xavier.jpg" },
 
-  { nom:"Kouassi", prenom:"Kanga Ange Marilyne", alias:"pedja",
+  { nom:"Kouassi", prenom:"Kanga Ange Marilyne", alias:"pedj",
     enigme:"Mon parfum envoûte, ma beauté séduit. Je suis offerte lors des grandes occasions. Je cache des épines mais j'incarne l'amour. Qui suis-je ?",
     reponseHash:"618d663af0f1ec88a5a19defa65a2f80d06582a832510b12f475d80870bdb3ab",
     indice:"Je suis une fleur symbole d'amour et de passion.", image:"cartes/Kouassi-Marilyne.jpg" },
@@ -194,10 +194,10 @@ const invites = [
     reponseHash:"f4436d9688af5d6b7cb33e78fe4059fae546920a2018299799919fe8ecaa6328",
     indice:"Je suis un grand espace naturel recouvert d'arbres.", image:"cartes/Silué-Ibrahim.jpg" },
 
-  { nom:"Soumahouro", prenom:"Abdoul Souamade", alias:"le pro de lakota",
+  { nom:"Soumahoro", prenom:"Abdoul Souamade", alias:"le pro de lakota",
     enigme:"Je suis le vent doux qui caresse les joues au printemps. Les Grecs m'avaient donné un nom de dieu. Je suis la brise la plus douce qui soit. Qui suis-je ?",
     reponseHash:"d47c40bea34483aafa4af5bd36af4f6adff17bda66d1cedbaf9c93e9bb9cf387",
-    indice:"Je suis un vent doux et agréable dans la mythologie grecque.", image:"cartes/Soumahouro-abdoul.jpg" },
+    indice:"Je suis un vent doux et agréable dans la mythologie grecque.", image:"cartes/Soumahoro-abdoul.jpg" },
 
   { nom:"Toussea", prenom:"Oulaï Daniele Grace Emmanuella", alias:"la capricieuse",
     enigme:"Je suis le jardin du commencement. Je suis le paradis perdu que l'humanité cherche encore depuis des millénaires. Mon nom évoque la perfection originelle. Qui suis-je ?",
@@ -209,7 +209,7 @@ const invites = [
     reponseHash:"46c4c923178acf98a9335791af273d4afd2d13e130e24672a753704ed854409f",
     indice:"Je suis un personnage féminin du livre de Ruth dans la Bible.", image:"cartes/Yao-Naomi.jpg" },
 
-  { nom:"Yaonaaba", prenom:"Joela Danielle", alias:"la polytech",
+  { nom:"Yaonaba", prenom:"Joela Danielle", alias:"poupouninpou",
     enigme:"Je suis une créature des eaux douces et mystérieuses. Je séduis les voyageurs au bord des rivières. Je suis à la fois femme et légende. Qui suis-je ?",
     reponseHash:"b4a1b3d670fe631f25ec5c9960dc2eca35110c3496dcc959fd60d1ed3d0a991f",
     indice:"Je suis une nymphe des eaux dans la mythologie nordique.", image:"cartes/Yaonaba-Joela.jpg" },
