@@ -719,7 +719,7 @@ const codesSecrets = {
   "Sanogo":      "SW35",
   "Sekongo":     "SR08",
   "Silué":       "SI64",
-  "Soumahouro":  "SA51",
+  "Soumahoro":  "SA51",
   "Toussea":     "TD97",
   "Yao":         "YN33",
   "Yaonaba":     "YJ80",
