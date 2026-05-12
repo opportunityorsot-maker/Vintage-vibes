@@ -109,7 +109,7 @@ const invites = [
     reponseHash:"72f3dc77f679f3fedfd75e3757b3b64e3d658446409ee2d74ee24ffd59c6f1a8",
     indice:"Je suis un célèbre général et homme d'État romain.", image:"cartes/Konan-César.jpg" },
 
-  { nom:"Koné", prenom:"Yieh Pédienlien Daniel", alias:"tchegbe",
+  { nom:"Koné", prenom:"Yieh Pédienlin Daniel", alias:"tchegbe",
     enigme:"Je vois dans le noir absolu. Je chasse en silence total. Mes yeux percent l'obscurité comme des phares dans la nuit. Qui suis-je ?",
     reponseHash:"7c180e3e3bee93dde4c28a4999b4cc3604ee53524c3b245485d41ac36d478c82",
     indice:"Je suis un félin aux yeux perçants vivant dans les forêts.", image:"cartes/Koné-Daniel.jpg" },
